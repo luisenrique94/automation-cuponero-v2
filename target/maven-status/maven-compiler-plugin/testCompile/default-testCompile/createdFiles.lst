@@ -2,6 +2,7 @@ steps\CouponNormalSD.class
 page\Home.class
 page\DetailCoupons.class
 task\Footer.class
+browserstackserenity\BrowserStackSerenityDriver.class
 steps\SearchCouponSD.class
 steps\ScreenplayActors.class
 CucumberTestSuite.class
@@ -20,4 +21,5 @@ steps\LoginSD.class
 steps\FooterSD.class
 question\OverviewData.class
 page\LoginForm.class
+browserstackserenity\BrowserStackSerenityTest.class
 task\Coupons.class

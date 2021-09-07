@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: Login into the application
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.844 s <<< FAILURE! - in Login into the application
+Login into the application.successful login  Time elapsed: 0.844 s  <<< ERROR!
+java.lang.RuntimeException: Could not instantiate the custom webdriver provider of type com.browserstack.BrowserStackSerenityDriver
+
