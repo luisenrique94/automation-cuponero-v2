@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.20/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.20/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.20/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.20/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.20/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">"My Special Project"</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f27883139dab6061d179f0e1e194d83ec7347d0fbfd8c66b877e5b2c1f2ca1b2.html">Coupons</a></span>
+                > <span class="truncate-60"><a
+                    href="723e8dd6e3a83fd83e5d9ae99ba3a4d5449a1ee20cf75661718fb355e12ad690.html">Bicanal coupon </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-09-2021 18:24</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Coupons </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="643f29917e2cc8c5659c45537d4f195b7aff7974a2d9c24ba143f6be2ab0d4cf.html">Coupon Bicanal
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Bicanal coupon
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given that the user enters the coupon website<br>When you enter yourBicanal &lt;document number&gt;<br>And click on a dual bicanal coupon<br>Then you can view the detail of a dual-channel coupon</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="11f1dd1435631f47951923af9b5f5ecb150474bc3e4064ae5a707389ce443442.png" title=" 1: Bicanal coupon ({document number=72209308})" width="1366"/>
+                <img src="11f1dd1435631f47951923af9b5f5ecb150474bc3e4064ae5a707389ce443442.png" title=" Given that the user enters the coupon website" width="1366"/>
+                <img src="11f1dd1435631f47951923af9b5f5ecb150474bc3e4064ae5a707389ce443442.png" title=" that the user opens the home page" width="1366"/>
+                <img src="11f1dd1435631f47951923af9b5f5ecb150474bc3e4064ae5a707389ce443442.png" title=" that the user opens the home.page page" width="1366"/>
+                <img src="11f1dd1435631f47951923af9b5f5ecb150474bc3e4064ae5a707389ce443442.png" title=" that the user opens the home page (completed)" width="1366"/>
+                <img src="cfc78cef3a755aaf99384ccce8ef676934a56d808874275a323a99ce90aa4c40.png" title=" Given that the user enters the coupon website (completed)" width="1366"/>
+                <img src="cfc78cef3a755aaf99384ccce8ef676934a56d808874275a323a99ce90aa4c40.png" title=" When you enter yourBicanal 72209308" width="1366"/>
+                <img src="cfc78cef3a755aaf99384ccce8ef676934a56d808874275a323a99ce90aa4c40.png" title=" login" width="1366"/>
+                <img src="66d221a736fab20b689dd0fdd763efba27e39016e6e84c18a497a711b0c9ae8d.png" title=" that the user enters '72209308' into Input de numero de documento" width="1366"/>
+                <img src="520b8a4542db5af3d93f6f7532c33de5098ceb83f0146f108c7fbbb9ae3c8ab6.png" title=" that the user enters '72209308' into Input de numero de documento (completed)" width="1366"/>
+                <img src="a709babd0f37362eee2f045bc7c57d1f6a04c344ea0ed75215ab673c2cb5caac.png" title=" that the user clicks on Boton ingresar" width="1366"/>
+                <img src="6fc9bd1c1391fea791d9d1a7a120885193c0a90f89096532c49373a608dfbbcb.png" title=" that the user clicks on Boton ingresar (completed)" width="1366"/>
+                <img src="f59cdbaab1871c7a359190bc5568d1f4732dddd0d0776d0ea36c5f807268de36.png" title=" login (completed)" width="1366"/>
+                <img src="f59cdbaab1871c7a359190bc5568d1f4732dddd0d0776d0ea36c5f807268de36.png" title=" When you enter yourBicanal 72209308 (completed)" width="1366"/>
+                <img src="f59cdbaab1871c7a359190bc5568d1f4732dddd0d0776d0ea36c5f807268de36.png" title=" And click on a dual bicanal coupon" width="1366"/>
+                <img src="f59cdbaab1871c7a359190bc5568d1f4732dddd0d0776d0ea36c5f807268de36.png" title=" coupon Bicanal" width="1366"/>
+                <img src="798a93ea5b764268a19c4a10cb36060cfa205dc1d6ee203d96bfbea2557afa83.png" title=" that the user clicks on COUPON BICANAL 1" width="1366"/>
+                <img src="68a34c06fb7f04457efab380a95cce2791b072a250930b1546ebc4be5f8a247a.png" title=" that the user clicks on COUPON BICANAL 1 (completed)" width="1366"/>
+                <img src="68a34c06fb7f04457efab380a95cce2791b072a250930b1546ebc4be5f8a247a.png" title=" that the user clicks on COPIAR CODIGO DE CUPON" width="1366"/>
+                <img src="49b17bbca5ace89e4b44825a9a3b2cd1b79b2aeefa40652de13861f61b1209db.png" title=" that the user clicks on COPIAR CODIGO DE CUPON (completed)" width="1366"/>
+                <img src="49b17bbca5ace89e4b44825a9a3b2cd1b79b2aeefa40652de13861f61b1209db.png" title=" that the user clicks on BOTON QUE CIERRA EL MODAL Y MANTIENE AL USUARIO EN DETALLE CUPON " width="1366"/>
+                <img src="785ccebe55fb8152187a40da6abb85f0a63f2222c55f5efc858c2eba0a8f6af2.png" title=" that the user clicks on BOTON QUE CIERRA EL MODAL Y MANTIENE AL USUARIO EN DETALLE CUPON  (completed)" width="1366"/>
+                <img src="785ccebe55fb8152187a40da6abb85f0a63f2222c55f5efc858c2eba0a8f6af2.png" title=" that the user clicks on BOTON QUE DIRIGE AL USUARIO A MIFARMA.COM.PE" width="1366"/>
+                <img src="ba6e3a618f2cb1a06a6c5f4a5e3e85e4b4e6dea8a18e1d6d96317be22e0d7f86.png" title=" that the user clicks on BOTON QUE DIRIGE AL USUARIO A MIFARMA.COM.PE (completed)" width="1366"/>
+                <img src="ba6e3a618f2cb1a06a6c5f4a5e3e85e4b4e6dea8a18e1d6d96317be22e0d7f86.png" title=" coupon Bicanal (completed)" width="1366"/>
+                <img src="ba6e3a618f2cb1a06a6c5f4a5e3e85e4b4e6dea8a18e1d6d96317be22e0d7f86.png" title=" And click on a dual bicanal coupon (completed)" width="1366"/>
+                <img src="ba6e3a618f2cb1a06a6c5f4a5e3e85e4b4e6dea8a18e1d6d96317be22e0d7f86.png" title=" Then you can view the detail of a dual-channel coupon" width="1366"/>
+                <img src="471f3288919dfc6f939ed3dd2d66f4cbd0ae1fff0f537b48da809e99b4ab5bca.png" title=" Then FECHA DE CAMPA&amp;Ntilde;A should be Predicates.equalTo(V&amp;aacute;lido del 1 al 15 de septiembre)" width="1366"/>
+                <img src="471f3288919dfc6f939ed3dd2d66f4cbd0ae1fff0f537b48da809e99b4ab5bca.png" title=" Then FECHA DE CAMPA&amp;Ntilde;A should be Predicates.equalTo(V&amp;aacute;lido del 1 al 15 de septiembre) (completed)" width="1366"/>
+                <img src="471f3288919dfc6f939ed3dd2d66f4cbd0ae1fff0f537b48da809e99b4ab5bca.png" title=" Then BOTON DESCARGAR AQUI should be Predicates.equalTo()" width="1366"/>
+                <img src="471f3288919dfc6f939ed3dd2d66f4cbd0ae1fff0f537b48da809e99b4ab5bca.png" title=" Then BOTON DESCARGAR AQUI should be Predicates.equalTo() (completed)" width="1366"/>
+                <img src="471f3288919dfc6f939ed3dd2d66f4cbd0ae1fff0f537b48da809e99b4ab5bca.png" title=" Then CANJEA TU CUPON AQUI should be Predicates.equalTo(V&amp;aacute;lido en nuestros locales, Web y App)" width="1366"/>
+                <img src="471f3288919dfc6f939ed3dd2d66f4cbd0ae1fff0f537b48da809e99b4ab5bca.png" title=" Then CANJEA TU CUPON AQUI should be Predicates.equalTo(V&amp;aacute;lido en nuestros locales, Web y App) (completed)" width="1366"/>
+                <img src="471f3288919dfc6f939ed3dd2d66f4cbd0ae1fff0f537b48da809e99b4ab5bca.png" title=" that the user switches to new window" width="1366"/>
+                <img src="8f01031801e26143ce1046b9fd083cb37d4b8a9fa36a2c08d4550c1b3230e5ea.png" title=" that the user switches to new window (completed)" width="1366"/>
+                <img src="8f01031801e26143ce1046b9fd083cb37d4b8a9fa36a2c08d4550c1b3230e5ea.png" title=" Then you can view the detail of a dual-channel coupon (completed)" width="1366"/>
+                <img src="8f01031801e26143ce1046b9fd083cb37d4b8a9fa36a2c08d4550c1b3230e5ea.png" title=" 1: Bicanal coupon ({document number=72209308}) (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.4.34</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Search Coupon","multiple search results","SUCCESS","2021-09-03T15:35:39.6054436-05:00[America/Lima]","0.0","53.66"
+"Search Coupon","a single search result","SUCCESS","2021-09-03T17:20:39.5371702-05:00[America/Lima]","0.0","46.96"
+"Search Coupon","Product not found","SUCCESS","2021-09-03T17:30:50.3144964-05:00[America/Lima]","0.0","60.93"

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Coupons","Bicanal coupon","SUCCESS","2021-09-05T18:24:44.1822372-05:00[America/Lima]","0.0","74.65"
+"Coupons","Flash coupon","SUCCESS","2021-09-06T13:00:00.7744673-05:00[America/Lima]","0.0","71.93"
+"Coupons","multi-hook coupon","SUCCESS","2021-09-06T00:02:21.4380264-05:00[America/Lima]","0.0","51.8"
+"Coupons","normal coupon","SUCCESS","2021-09-06T16:28:21.3205191-05:00[America/Lima]","0.0","48.81"
+"Coupons","recommend coupons","SUCCESS","2021-09-06T18:07:27.6762004-05:00[America/Lima]","0.0","59.74"
