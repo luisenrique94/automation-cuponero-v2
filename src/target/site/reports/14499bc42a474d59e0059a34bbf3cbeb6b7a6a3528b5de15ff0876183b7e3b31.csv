@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Login into the application","failed login","SUCCESS","2021-09-03T11:34:36.7356224-05:00[America/Lima]","0.0","34.99"
 "Login into the application","user not registered","SUCCESS","2021-09-03T11:47:37.0778637-05:00[America/Lima]","0.0","58.94"
-"Login into the application","successful login","SUCCESS","2021-09-07T18:10:37.909369-05:00[America/Lima]","0.0","58.88"
+"Login into the application","successful login","SUCCESS","2021-09-08T09:48:02.6764324-05:00[America/Lima]","0.0","56.83"
