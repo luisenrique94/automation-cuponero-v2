@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         publish = true,
         plugin = {"pretty"},
         features = "src/test/resources/features",
-       tags = "@loginSuccess"
+       tags = ("@login")
 )
 public class CucumberTestSuite extends BrowserStackSerenityTest{
 

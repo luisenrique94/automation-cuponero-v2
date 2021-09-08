@@ -35,8 +35,10 @@ public class LoginSD {
     public void sends_number_document(String dni) throws InterruptedException {
        theActorInTheSpotlight().wasAbleTo(
         Login.login(dni)
+
         );
-        Sleep.By(5);
+
+        //Sleep.By(5);
     }
 
     @Then("^should be able to view her coupons$")
@@ -49,6 +51,9 @@ public class LoginSD {
 
         );
         Sleep.By(5);
+        theActorInTheSpotlight().wasAbleTo(
+                Login.logout()
+        );
 
     }
 
