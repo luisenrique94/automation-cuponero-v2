@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Login into the application" time="124.281" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="Login into the application" time="94.94" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\Usuario\.cache\selenium\chromedriver\win32\93.0.4577.15\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Usuario\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\target\test-classes;C:\Users\Usuario\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Usuario\.m2\repository\com\browserstack\browserstack-local-java\1.0.6\browserstack-local-java-1.0.6.jar;C:\Users\Usuario\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\Usuario\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-core\2.4.34\serenity-core-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-model\2.4.34\serenity-model-2.4.34.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\Usuario\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Usuario\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\Usuario\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Usuario\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Usuario\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Usuario\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Usuario\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Usuario\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\Users\Usuario\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Usuario\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Usuario\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Usuario\.m2\repository\com\thoughtworks\xstream\xstream\1.4.17\xstream-1.4.17.jar;C:\Users\Usuario\.m2\repository\io\github\x-stream\mxparser\1.2.1\mxparser-1.2.1.jar;C:\Users\Usuario\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Usuario\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Usuario\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\Usuario\.m2\repository\org\awaitility\awaitility\4.0.3\awaitility-4.0.3.jar;C:\Users\Usuario\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Usuario\.m2\repository\org\asciidoctor\asciidoctorj\1.5.6\asciidoctorj-1.5.6.jar;C:\Users\Usuario\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar;C:\Users\Usuario\.m2\repository\net\bytebuddy\byte-buddy\1.11.1\byte-buddy-1.11.1.jar;C:\Users\Usuario\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.1\byte-buddy-agent-1.11.1.jar;C:\Users\Usuario\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-reports\2.4.34\serenity-reports-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-stats\2.4.34\serenity-stats-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-reports-configuration\2.4.34\serenity-reports-configuration-2.4.34.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\Usuario\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\Usuario\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\Usuario\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\Usuario\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\Usuario\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\Usuario\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\Usuario\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\Usuario\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\Usuario\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\Usuario\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-report-resources\2.4.34\serenity-report-resources-2.4.34.jar;C:\Users\Usuario\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Usuario\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Usuario\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Usuario\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Usuario\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Usuario\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Usuario\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.47.1\htmlunit-2.47.1.jar;C:\Users\Usuario\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Usuario\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.47.0\htmlunit-core-js-2.47.0.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.47.1\neko-htmlunit-2.47.1.jar;C:\Users\Usuario\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\Usuario\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.7.0\htmlunit-cssparser-1.7.0.jar;C:\Users\Usuario\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Usuario\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.36.v20210114\websocket-client-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\jetty-client\9.4.36.v20210114\jetty-client-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\jetty-http\9.4.36.v20210114\jetty-http-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\jetty-util\9.4.36.v20210114\jetty-util-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\jetty-io\9.4.36.v20210114\jetty-io-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.36.v20210114\websocket-common-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.36.v20210114\websocket-api-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.47.1\htmlunit-driver-2.47.1.jar;C:\Users\Usuario\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\Usuario\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\Usuario\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\Usuario\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\Usuario\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Usuario\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Usuario\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\Usuario\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Usuario\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Usuario\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\Usuario\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.1\webdrivermanager-4.4.1.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Usuario\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Usuario\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\Usuario\.m2\repository\com\assertthat\selenium-shutterbug\1.4\selenium-shutterbug-1.4.jar;C:\Users\Usuario\.m2\repository\com\github\zafarkhaja\java-semver\0.9.0\java-semver-0.9.0.jar;C:\Users\Usuario\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\Usuario\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\Usuario\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\Usuario\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Usuario\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\Usuario\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\Usuario\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Usuario\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Usuario\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\Usuario\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Usuario\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Usuario\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Usuario\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-junit\2.4.34\serenity-junit-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-screenplay\2.4.34\serenity-screenplay-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.4.34\serenity-screenplay-webdriver-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.4.34\serenity-screenplay-rest-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.4.34\serenity-rest-assured-2.4.34.jar;C:\Users\Usuario\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Usuario\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Usuario\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Usuario\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Usuario\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Usuario\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Usuario\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Usuario\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-ensure\2.4.34\serenity-ensure-2.4.34.jar;C:\Users\Usuario\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\Usuario\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Usuario\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.4.34\serenity-cucumber6-2.4.34.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\Usuario\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Usuario\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Usuario\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Usuario\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Usuario\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\Usuario\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\Usuario\.m2\repository\org\apache\ant\ant\1.10.9\ant-1.10.9.jar;C:\Users\Usuario\.m2\repository\org\apache\ant\ant-launcher\1.10.9\ant-launcher-1.10.9.jar;"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Usuario\AppData\Local\Temp\surefire12137799820781704472 2021-09-08T10-55-02_898-jvmRun1 surefire6074156576987718403tmp surefire_03546067010892021116tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Usuario\AppData\Local\Temp\surefire2015626049232468214 2021-09-09T18-13-26_022-jvmRun1 surefire15962628326680001137tmp surefire_05451254003292510770tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\target\test-classes;C:\Users\Usuario\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Usuario\.m2\repository\com\browserstack\browserstack-local-java\1.0.6\browserstack-local-java-1.0.6.jar;C:\Users\Usuario\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\Usuario\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-classic\1.0.13\logback-classic-1.0.13.jar;C:\Users\Usuario\.m2\repository\ch\qos\logback\logback-core\1.0.13\logback-core-1.0.13.jar;C:\Users\Usuario\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-core\2.4.34\serenity-core-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-model\2.4.34\serenity-model-2.4.34.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-text\1.9\commons-text-1.9.jar;C:\Users\Usuario\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Usuario\.m2\repository\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar;C:\Users\Usuario\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Usuario\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Usuario\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Usuario\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Usuario\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Usuario\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Usuario\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\Users\Usuario\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Usuario\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Usuario\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Usuario\.m2\repository\com\thoughtworks\xstream\xstream\1.4.17\xstream-1.4.17.jar;C:\Users\Usuario\.m2\repository\io\github\x-stream\mxparser\1.2.1\mxparser-1.2.1.jar;C:\Users\Usuario\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Usuario\.m2\repository\com\typesafe\config\1.3.1\config-1.3.1.jar;C:\Users\Usuario\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\Usuario\.m2\repository\org\awaitility\awaitility\4.0.3\awaitility-4.0.3.jar;C:\Users\Usuario\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\Usuario\.m2\repository\org\asciidoctor\asciidoctorj\1.5.6\asciidoctorj-1.5.6.jar;C:\Users\Usuario\.m2\repository\org\jruby\jruby-complete\1.7.26\jruby-complete-1.7.26.jar;C:\Users\Usuario\.m2\repository\net\bytebuddy\byte-buddy\1.11.1\byte-buddy-1.11.1.jar;C:\Users\Usuario\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.1\byte-buddy-agent-1.11.1.jar;C:\Users\Usuario\.m2\repository\org\objenesis\objenesis\3.1\objenesis-3.1.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-reports\2.4.34\serenity-reports-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-stats\2.4.34\serenity-stats-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-reports-configuration\2.4.34\serenity-reports-configuration-2.4.34.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-all\0.34.30\flexmark-all-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark\0.34.30\flexmark-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.34.30\flexmark-ext-abbreviation-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.34.30\flexmark-ext-admonition-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.34.30\flexmark-ext-anchorlink-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.34.30\flexmark-ext-aside-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.34.30\flexmark-ext-attributes-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.34.30\flexmark-ext-autolink-0.34.30.jar;C:\Users\Usuario\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.34.30\flexmark-ext-definition-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.34.30\flexmark-ext-emoji-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.34.30\flexmark-ext-enumerated-reference-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.34.30\flexmark-ext-escaped-character-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.34.30\flexmark-ext-footnotes-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.34.30\flexmark-ext-gfm-issues-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.34.30\flexmark-ext-gfm-strikethrough-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tables\0.34.30\flexmark-ext-gfm-tables-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.34.30\flexmark-ext-gfm-tasklist-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.34.30\flexmark-ext-gfm-users-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.34.30\flexmark-ext-gitlab-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.34.30\flexmark-ext-jekyll-front-matter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.34.30\flexmark-ext-jekyll-tag-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.34.30\flexmark-ext-media-tags-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-test-util\0.34.30\flexmark-test-util-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.34.30\flexmark-ext-ins-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.34.30\flexmark-ext-xwiki-macros-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.34.30\flexmark-ext-superscript-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.34.30\flexmark-ext-tables-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.34.30\flexmark-ext-toc-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.34.30\flexmark-ext-typographic-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.34.30\flexmark-ext-wikilink-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.34.30\flexmark-ext-yaml-front-matter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.34.30\flexmark-ext-youtube-embedded-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-formatter\0.34.30\flexmark-formatter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-html-parser\0.34.30\flexmark-html-parser-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.34.30\flexmark-jira-converter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.34.30\flexmark-pdf-converter-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\0.0.1-RC13\openhtmltopdf-core-0.0.1-RC13.jar;C:\Users\Usuario\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\0.0.1-RC13\openhtmltopdf-pdfbox-0.0.1-RC13.jar;C:\Users\Usuario\.m2\repository\org\apache\pdfbox\pdfbox\2.0.8\pdfbox-2.0.8.jar;C:\Users\Usuario\.m2\repository\org\apache\pdfbox\fontbox\2.0.8\fontbox-2.0.8.jar;C:\Users\Usuario\.m2\repository\org\apache\pdfbox\xmpbox\2.0.8\xmpbox-2.0.8.jar;C:\Users\Usuario\.m2\repository\de\rototor\pdfbox\graphics2d\0.12\graphics2d-0.12.jar;C:\Users\Usuario\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\0.0.1-RC13\openhtmltopdf-rtl-support-0.0.1-RC13.jar;C:\Users\Usuario\.m2\repository\com\ibm\icu\icu4j\59.1\icu4j-59.1.jar;C:\Users\Usuario\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\0.0.1-RC13\openhtmltopdf-jsoup-dom-converter-0.0.1-RC13.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.34.30\flexmark-profile-pegdown-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-util\0.34.30\flexmark-util-0.34.30.jar;C:\Users\Usuario\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.34.30\flexmark-youtrack-converter-0.34.30.jar;C:\Users\Usuario\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-report-resources\2.4.34\serenity-report-resources-2.4.34.jar;C:\Users\Usuario\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Usuario\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Usuario\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\Usuario\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Usuario\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Usuario\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Usuario\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.47.1\htmlunit-2.47.1.jar;C:\Users\Usuario\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Usuario\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.47.0\htmlunit-core-js-2.47.0.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.47.1\neko-htmlunit-2.47.1.jar;C:\Users\Usuario\.m2\repository\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0.jar;C:\Users\Usuario\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Usuario\.m2\repository\net\sourceforge\htmlunit\htmlunit-cssparser\1.7.0\htmlunit-cssparser-1.7.0.jar;C:\Users\Usuario\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Usuario\.m2\repository\com\shapesecurity\salvation2\3.0.0\salvation2-3.0.0.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.36.v20210114\websocket-client-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\jetty-client\9.4.36.v20210114\jetty-client-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\jetty-http\9.4.36.v20210114\jetty-http-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\jetty-util\9.4.36.v20210114\jetty-util-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\jetty-io\9.4.36.v20210114\jetty-io-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.36.v20210114\websocket-common-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.36.v20210114\websocket-api-9.4.36.v20210114.jar;C:\Users\Usuario\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.47.1\htmlunit-driver-2.47.1.jar;C:\Users\Usuario\.m2\repository\com\codeborne\phantomjsdriver\1.4.4\phantomjsdriver-1.4.4.jar;C:\Users\Usuario\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\Usuario\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\Usuario\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\Usuario\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Usuario\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Usuario\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\Usuario\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Usuario\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Usuario\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\Usuario\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.1\webdrivermanager-4.4.1.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Usuario\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Usuario\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Usuario\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\Usuario\.m2\repository\com\assertthat\selenium-shutterbug\1.4\selenium-shutterbug-1.4.jar;C:\Users\Usuario\.m2\repository\com\github\zafarkhaja\java-semver\0.9.0\java-semver-0.9.0.jar;C:\Users\Usuario\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\Usuario\.m2\repository\com\paulhammant\ngwebdriver\1.1.5\ngwebdriver-1.1.5.jar;C:\Users\Usuario\.m2\repository\joda-time\joda-time\2.8.2\joda-time-2.8.2.jar;C:\Users\Usuario\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Usuario\.m2\repository\com\google\jimfs\jimfs\1.1\jimfs-1.1.jar;C:\Users\Usuario\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\Usuario\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Usuario\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\Usuario\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\Usuario\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Usuario\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Usuario\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\Usuario\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-junit\2.4.34\serenity-junit-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-screenplay\2.4.34\serenity-screenplay-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\2.4.34\serenity-screenplay-webdriver-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-screenplay-rest\2.4.34\serenity-screenplay-rest-2.4.34.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-rest-assured\2.4.34\serenity-rest-assured-2.4.34.jar;C:\Users\Usuario\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\Usuario\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Usuario\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\Usuario\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\Usuario\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\Usuario\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Usuario\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Usuario\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-ensure\2.4.34\serenity-ensure-2.4.34.jar;C:\Users\Usuario\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.5.0\kotlin-stdlib-1.5.0.jar;C:\Users\Usuario\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Usuario\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.5.0\kotlin-stdlib-common-1.5.0.jar;C:\Users\Usuario\.m2\repository\net\serenity-bdd\serenity-cucumber6\2.4.34\serenity-cucumber6-2.4.34.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\datatable-matchers\3.4.0\datatable-matchers-3.4.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\Usuario\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Usuario\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-core\6.10.4\cucumber-core-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-gherkin\6.10.4\cucumber-gherkin-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.4\cucumber-gherkin-messages-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\cucumber-plugin\6.10.4\cucumber-plugin-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\docstring\6.10.4\docstring-6.10.4.jar;C:\Users\Usuario\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Usuario\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Usuario\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Usuario\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Usuario\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Usuario\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\Usuario\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\Usuario\.m2\repository\org\apache\ant\ant\1.10.9\ant-1.10.9.jar;C:\Users\Usuario\.m2\repository\org\apache\ant\ant-launcher\1.10.9\ant-launcher-1.10.9.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -60,256 +60,250 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="successful login" classname="Login into the application" time="29.552">
-    <system-out><![CDATA[10:55:06.289 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+  <testcase name="successful login" classname="Login into the application" time="41.94">
+    <system-out><![CDATA[18:13:29.125 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.346 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+18:13:29.195 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.346 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+18:13:29.195 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=src/target/site/reports
+18:13:29.203 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root="net.serenitybdd.demos.todos.features"
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root="net.serenitybdd.demos.todos.features"
+18:13:29.203 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name="My Special Project"
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name="My Special Project"
+18:13:29.203 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - browserstack.name=[Serenity] Sample Test
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - browserstack.name=[Serenity] Sample Test
+18:13:29.204 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.fluentwait=10000
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.fluentwait=10000
+18:13:29.204 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.excludeSwitches=enable-automation
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.excludeSwitches=enable-automation
+18:13:29.204 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.PROD.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.PROD.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.204 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.reports.show.step.details=true
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.reports.show.step.details=true
+18:13:29.204 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.autodownload=true
 
-10:55:06.355 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.autodownload=true
+18:13:29.204 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.password_manager_enabled=false
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.password_manager_enabled=false
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_settings.popups=0
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_settings.popups=0
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.report.show.manual.tests=true
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.report.show.manual.tests=true
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.wait.for.timeout=10000
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.wait.for.timeout=10000
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page1=https://conveniosci04.cindibyinkafarma.com/
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page1=https://conveniosci04.cindibyinkafarma.com/
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - firefox.preferences=browser.download.dir=/tmp;browser.helperApps.alwaysAsk.force=false;browser.download.manager.showWhenStarting=false;browser.download.useDownloadDir=true;browser.download.folderList=2;permissions.default.desktop-notification=1
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - firefox.preferences=browser.download.dir=/tmp;browser.helperApps.alwaysAsk.force=false;browser.download.manager.showWhenStarting=false;browser.download.useDownloadDir=true;browser.download.folderList=2;permissions.default.desktop-notification=1
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.width=1920
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.width=1920
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.notifications=1
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.notifications=1
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.verbose.screenshots.for.tasks=AFTER_EACH_STEP
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.verbose.screenshots.for.tasks=AFTER_EACH_STEP
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.max.retries=2
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.max.retries=2
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.356 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.205 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots.for.tasks=FOR_EACH_ACTION
 
-10:55:06.357 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots.for.tasks=FOR_EACH_ACTION
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.useAutomationExtension=false
 
-10:55:06.357 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.useAutomationExtension=false
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome.switches=--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;--disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;--disable-download-notification;--disable-infobars,--disable-gpu
 
-10:55:06.357 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome.switches=--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;--disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;--disable-download-notification;--disable-infobars,--disable-gpu
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.headings=normal
 
-10:55:06.357 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.headings=normal
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.colors=true
 
-10:55:06.357 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.colors=true
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.restart.browser.for.each=NEVER
 
-10:55:06.357 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.restart.browser.for.each=NEVER
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
 
-10:55:06.357 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.junit.retry.tests=true
 
-10:55:06.357 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.junit.retry.tests=true
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.credentials_enable_service=false
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.credentials_enable_service=false
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.implicitlywait=5000
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.implicitlywait=5000
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.download.default_directory=/my/downloads/
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.download.default_directory=/my/downloads/
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.height=1080
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.height=1080
+18:13:29.206 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=UAT
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=UAT
+18:13:29.207 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.geolocation=1
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.geolocation=1
+18:13:29.207 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - headless.mode=false
 
-10:55:06.358 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - headless.mode=false
+18:13:29.534 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.694 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+18:13:29.549 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.710 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+18:13:29.549 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.711 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+18:13:29.550 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root="net.serenitybdd.demos.todos.features"
 
-10:55:06.711 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=src/target/site/reports
+18:13:29.550 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name="My Special Project"
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root="net.serenitybdd.demos.todos.features"
+18:13:29.550 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - browserstack.name=[Serenity] Sample Test
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name="My Special Project"
+18:13:29.550 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.fluentwait=10000
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - browserstack.name=[Serenity] Sample Test
+18:13:29.551 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.excludeSwitches=enable-automation
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.fluentwait=10000
+18:13:29.551 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.PROD.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.excludeSwitches=enable-automation
+18:13:29.551 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.reports.show.step.details=true
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.PROD.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.551 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.autodownload=true
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.reports.show.step.details=true
+18:13:29.551 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.password_manager_enabled=false
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.autodownload=true
+18:13:29.551 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.password_manager_enabled=false
+18:13:29.551 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_settings.popups=0
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.report.show.manual.tests=true
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_settings.popups=0
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.wait.for.timeout=10000
 
-10:55:06.712 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.report.show.manual.tests=true
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page1=https://conveniosci04.cindibyinkafarma.com/
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.wait.for.timeout=10000
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - firefox.preferences=browser.download.dir=/tmp;browser.helperApps.alwaysAsk.force=false;browser.download.manager.showWhenStarting=false;browser.download.useDownloadDir=true;browser.download.folderList=2;permissions.default.desktop-notification=1
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page1=https://conveniosci04.cindibyinkafarma.com/
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.width=1920
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - firefox.preferences=browser.download.dir=/tmp;browser.helperApps.alwaysAsk.force=false;browser.download.manager.showWhenStarting=false;browser.download.useDownloadDir=true;browser.download.folderList=2;permissions.default.desktop-notification=1
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.notifications=1
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.width=1920
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.verbose.screenshots.for.tasks=AFTER_EACH_STEP
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.notifications=1
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.max.retries=2
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.verbose.screenshots.for.tasks=AFTER_EACH_STEP
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.max.retries=2
+18:13:29.552 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots.for.tasks=FOR_EACH_ACTION
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.useAutomationExtension=false
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots.for.tasks=FOR_EACH_ACTION
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome.switches=--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;--disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;--disable-download-notification;--disable-infobars,--disable-gpu
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.useAutomationExtension=false
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.headings=normal
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome.switches=--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;--disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;--disable-download-notification;--disable-infobars,--disable-gpu
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.colors=true
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.headings=normal
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.restart.browser.for.each=NEVER
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.colors=true
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.restart.browser.for.each=NEVER
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.junit.retry.tests=true
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.credentials_enable_service=false
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.junit.retry.tests=true
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.implicitlywait=5000
 
-10:55:06.713 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.credentials_enable_service=false
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
 
-10:55:06.714 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.implicitlywait=5000
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.download.default_directory=/my/downloads/
 
-10:55:06.714 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
 
-10:55:06.714 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.download.default_directory=/my/downloads/
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.height=1080
 
-10:55:06.714 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=UAT
 
-10:55:06.714 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.height=1080
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.geolocation=1
 
-10:55:06.714 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=UAT
+18:13:29.553 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - headless.mode=false
 
-10:55:06.714 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.geolocation=1
+18:13:29.579 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/categoryCoupon.feature
 
-10:55:06.714 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - headless.mode=false
+18:13:29.780 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.739 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/categoryCoupon.feature
+18:13:29.797 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.862 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+18:13:29.797 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
 
-10:55:06.872 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+18:13:29.798 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root="net.serenitybdd.demos.todos.features"
 
-10:55:06.873 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\serenity.properties 
+18:13:29.798 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name="My Special Project"
 
-10:55:06.873 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.outputDirectory=src/target/site/reports
+18:13:29.798 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - browserstack.name=[Serenity] Sample Test
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.test.root="net.serenitybdd.demos.todos.features"
+18:13:29.798 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.fluentwait=10000
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.project.name="My Special Project"
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.excludeSwitches=enable-automation
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - browserstack.name=[Serenity] Sample Test
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.PROD.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.fluentwait=10000
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.reports.show.step.details=true
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.excludeSwitches=enable-automation
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.autodownload=true
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.PROD.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.password_manager_enabled=false
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.reports.show.step.details=true
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.autodownload=true
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_settings.popups=0
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.password_manager_enabled=false
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.report.show.manual.tests=true
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.wait.for.timeout=10000
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_settings.popups=0
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page1=https://conveniosci04.cindibyinkafarma.com/
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.report.show.manual.tests=true
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - firefox.preferences=browser.download.dir=/tmp;browser.helperApps.alwaysAsk.force=false;browser.download.manager.showWhenStarting=false;browser.download.useDownloadDir=true;browser.download.folderList=2;permissions.default.desktop-notification=1
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.wait.for.timeout=10000
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.width=1920
 
-10:55:06.874 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.UAT.home.page1=https://conveniosci04.cindibyinkafarma.com/
+18:13:29.799 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.notifications=1
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - firefox.preferences=browser.download.dir=/tmp;browser.helperApps.alwaysAsk.force=false;browser.download.manager.showWhenStarting=false;browser.download.useDownloadDir=true;browser.download.folderList=2;permissions.default.desktop-notification=1
+18:13:29.800 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.verbose.screenshots.for.tasks=AFTER_EACH_STEP
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.width=1920
+18:13:29.800 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.max.retries=2
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.notifications=1
+18:13:29.800 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.verbose.screenshots.for.tasks=AFTER_EACH_STEP
+18:13:29.800 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots.for.tasks=FOR_EACH_ACTION
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.max.retries=2
+18:13:29.800 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.useAutomationExtension=false
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environments.default.home.page=https://cupomania-qa05.cindibyinkafarma.com/login
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome.switches=--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;--disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;--disable-download-notification;--disable-infobars,--disable-gpu
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.take.screenshots.for.tasks=FOR_EACH_ACTION
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.headings=normal
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_experimental_options.useAutomationExtension=false
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.colors=true
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome.switches=--start-maximized;--test-type;--no-sandbox;--ignore-certificate-errors;--disable-popup-blocking;--disable-default-apps;--disable-extensions-file-access-check;--disable-download-notification;--disable-infobars,--disable-gpu
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.restart.browser.for.each=NEVER
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.headings=normal
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.console.colors=true
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.junit.retry.tests=true
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.restart.browser.for.each=NEVER
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.credentials_enable_service=false
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.implicitlywait=5000
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.junit.retry.tests=true
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.credentials_enable_service=false
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.download.default_directory=/my/downloads/
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.timeouts.implicitlywait=5000
+18:13:29.801 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - webdriver.driver=chrome
+18:13:29.802 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.height=1080
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.download.default_directory=/my/downloads/
+18:13:29.802 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=UAT
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.logging=VERBOSE
+18:13:29.802 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.geolocation=1
 
-10:55:06.875 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - serenity.browser.height=1080
+18:13:29.802 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - headless.mode=false
 
-10:55:06.876 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - environment=UAT
-
-10:55:06.876 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - chrome_preferences.profile.default_content_setting_values.geolocation=1
-
-10:55:06.876 [main] DEBUG n.t.c.u.PropertiesFileLocalPreferences - headless.mode=false
-
-10:55:06.882 [main] INFO   - &amp#27;[96m
+18:13:29.809 [main] INFO   - &amp#27;[96m
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -326,63 +320,63 @@
 -------------------------------------------------------------------------------------
 &amp#27;[0m
 
-10:55:06.885 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@5372edb0
+18:13:29.813 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@5372edb0
 
-10:55:06.886 [main] INFO   - Test Suite Started: category coupons
+18:13:29.815 [main] INFO   - Test Suite Started: category coupons
 
-10:55:06.900 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponBicanal.feature
+18:13:29.836 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponBicanal.feature
 
-10:55:06.904 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@75f8c307
+18:13:29.843 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@75f8c307
 
-10:55:06.907 [main] INFO   - Test Suite Started: Coupons
+18:13:29.847 [main] INFO   - Test Suite Started: Coupons
 
-10:55:06.907 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponFlash.feature
+18:13:29.847 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponFlash.feature
 
-10:55:06.911 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@29deace3
+18:13:29.853 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@29deace3
 
-10:55:06.911 [main] INFO   - Test Suite Started: Coupons
+18:13:29.854 [main] INFO   - Test Suite Started: Coupons
 
-10:55:06.912 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponMultiHook.feature
+18:13:29.854 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponMultiHook.feature
 
-10:55:06.916 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@74dd7eef
+18:13:29.860 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@74dd7eef
 
-10:55:06.916 [main] INFO   - Test Suite Started: Coupons
+18:13:29.861 [main] INFO   - Test Suite Started: Coupons
 
-10:55:06.916 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponNormal.feature
+18:13:29.861 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponNormal.feature
 
-10:55:06.920 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4406e32a
+18:13:29.867 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4406e32a
 
-10:55:06.920 [main] INFO   - Test Suite Started: Coupons
+18:13:29.867 [main] INFO   - Test Suite Started: Coupons
 
-10:55:06.920 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponRecommend.feature
+18:13:29.868 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/couponRecommend.feature
 
-10:55:06.924 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@60a6d5af
+18:13:29.873 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@60a6d5af
 
-10:55:06.924 [main] INFO   - Test Suite Started: Coupons
+18:13:29.874 [main] INFO   - Test Suite Started: Coupons
 
-10:55:06.924 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/searchCoupon.feature
+18:13:29.874 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/Coupons/searchCoupon.feature
 
-10:55:06.930 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1a5ea4d
+18:13:29.881 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@1a5ea4d
 
-10:55:06.930 [main] INFO   - Test Suite Started: Search Coupon
+18:13:29.882 [main] INFO   - Test Suite Started: Search Coupon
 
-10:55:06.931 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/footer/footer.feature
+18:13:29.882 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/footer/footer.feature
 
-10:55:06.934 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@5e33f65c
+18:13:29.887 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@5e33f65c
 
-10:55:06.935 [main] INFO   - Test Suite Started: FOOTER
+18:13:29.888 [main] INFO   - Test Suite Started: FOOTER
 
-10:55:06.935 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
+18:13:29.888 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
 
-10:55:06.941 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@94cad640
+18:13:29.896 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@94cad640
 
-10:55:06.941 [main] INFO   - Test Suite Started: Login into the application
+18:13:29.897 [main] INFO   - Test Suite Started: Login into the application
 
-10:55:06.941 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/update/update.feature
+18:13:29.897 [main] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/update/update.feature
 
-10:55:06.946 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@877b492e
+18:13:29.903 [main] DEBUG n.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@877b492e
 
-10:55:06.946 [main] INFO   - Test Suite Started: Update
+18:13:29.903 [main] INFO   - Test Suite Started: Update
 
 
 
@@ -396,388 +390,399 @@
 &amp#27;[32m9 passed&amp#27;[0m
 )
 
-2m
-4.497s
+1m
+35.275s
 
 
 
 
 
-10:57:11.234 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+18:15:04.852 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
 
-10:57:11.286 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
+18:15:04.896 [main] DEBUG n.t.core.reports.ReportService - Reporting formats: [JSON, HTML]
 
-10:57:11.297 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 3 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@66c83fc8
+18:15:04.905 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 3 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@66c83fc8
 
-10:57:11.298 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:successful login
+18:15:04.906 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:successful login
 
-10:57:11.298 [pool-2-thread-3] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:user not registered
+18:15:04.906 [pool-2-thread-1] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@66c83fc8: Generating report for test outcome: Login into the application:successful login
 
-10:57:11.298 [pool-2-thread-2] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:failed login
+18:15:04.906 [pool-2-thread-3] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:user not registered
 
-10:57:11.298 [pool-2-thread-3] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@66c83fc8: Generating report for test outcome: Login into the application:user not registered
+18:15:04.906 [pool-2-thread-3] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@66c83fc8: Generating report for test outcome: Login into the application:user not registered
 
-10:57:11.298 [pool-2-thread-2] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@66c83fc8: Generating report for test outcome: Login into the application:failed login
+18:15:04.906 [pool-2-thread-2] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:failed login
 
-10:57:11.298 [pool-2-thread-1] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@66c83fc8: Generating report for test outcome: Login into the application:successful login
+18:15:04.906 [pool-2-thread-2] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@66c83fc8: Generating report for test outcome: Login into the application:failed login
 
-10:57:11.301 [pool-2-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for successful login to file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\src\target\site\reports\187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.json (using temp file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\src\target\site\reports\187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.jsonff966762-2720-4551-89dd-bca64b373690)
+18:15:04.909 [pool-2-thread-2] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for failed login to file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\target\site\serenity\ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.json (using temp file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\target\site\serenity\ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.json6a7545da-95af-429b-b223-90e82cbf04af)
 
-10:57:11.301 [pool-2-thread-2] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for failed login to file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\src\target\site\reports\ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.json (using temp file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\src\target\site\reports\ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.json76c45736-0e62-4846-be21-72d8a631758a)
+18:15:04.910 [pool-2-thread-1] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for successful login to file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\target\site\serenity\187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.json (using temp file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\target\site\serenity\187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.jsond83b64d2-7d37-4cbb-ad34-a40600753994)
 
-10:57:11.301 [pool-2-thread-3] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for user not registered to file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\src\target\site\reports\d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.json (using temp file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\src\target\site\reports\d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.jsoncc294319-5ce8-41f6-b9de-d4b048e1c504)
+18:15:04.909 [pool-2-thread-3] DEBUG n.t.c.r.json.JSONTestOutcomeReporter - Generating JSON report for user not registered to file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\target\site\serenity\d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.json (using temp file C:\Users\Usuario\Desktop\AUTOMATIZACIONES\automation-cuponero-v2\target\site\serenity\d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.jsondee5e8f3-4e7a-4486-a54f-5b5844e8292b)
 
-10:57:11.330 [pool-2-thread-3] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:user not registered done
+18:15:04.942 [pool-2-thread-3] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:user not registered done
 
-10:57:11.331 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:successful login done
+18:15:04.942 [pool-2-thread-2] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:failed login done
 
-10:57:11.331 [pool-2-thread-2] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:failed login done
+18:15:04.942 [pool-2-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:successful login done
 
-10:57:11.331 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+18:15:04.943 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
 
-10:57:11.331 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 34 ms
+18:15:04.943 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 38 ms
 
-10:57:11.331 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 3 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2125ad3
+18:15:04.943 [main] DEBUG n.t.core.reports.ReportService - Generating reports for 3 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2125ad3
 
-10:57:11.331 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:successful login
+18:15:04.944 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:successful login
 
-10:57:11.332 [pool-3-thread-1] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2125ad3: Generating report for test outcome: Login into the application:successful login
+18:15:04.944 [pool-3-thread-2] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:failed login
 
-10:57:11.332 [pool-3-thread-2] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:failed login
+18:15:04.944 [pool-3-thread-2] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2125ad3: Generating report for test outcome: Login into the application:failed login
 
-10:57:11.332 [pool-3-thread-3] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:user not registered
+18:15:04.944 [pool-3-thread-1] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2125ad3: Generating report for test outcome: Login into the application:successful login
 
-10:57:11.332 [pool-3-thread-2] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2125ad3: Generating report for test outcome: Login into the application:failed login
+18:15:04.944 [pool-3-thread-3] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:user not registered
 
-10:57:11.332 [pool-3-thread-3] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2125ad3: Generating report for test outcome: Login into the application:user not registered
+18:15:04.944 [pool-3-thread-3] INFO  n.t.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@2125ad3: Generating report for test outcome: Login into the application:user not registered
 
-10:57:11.356 [pool-3-thread-3] DEBUG n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: "net.serenitybdd.demos.todos.features"
+18:15:04.970 [pool-3-thread-3] DEBUG n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: "net.serenitybdd.demos.todos.features"
 
-10:57:11.358 [pool-3-thread-2] DEBUG n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: "net.serenitybdd.demos.todos.features"
+18:15:04.970 [pool-3-thread-2] DEBUG n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: "net.serenitybdd.demos.todos.features"
 
-10:57:11.359 [pool-3-thread-1] DEBUG n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: "net.serenitybdd.demos.todos.features"
+18:15:04.970 [pool-3-thread-1] DEBUG n.t.c.r.PackageRequirementsTagProvider - Loading requirements from package requirements at: "net.serenitybdd.demos.todos.features"
 
-10:57:11.986 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature category coupons
+18:15:05.542 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature category coupons
 
-10:57:11.986 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature category coupons
+18:15:05.542 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature category coupons
 
-10:57:11.990 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.542 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature category coupons
 
-10:57:11.990 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.548 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:11.991 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature category coupons
+18:15:05.548 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:11.993 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.548 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:11.994 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.552 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:11.995 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.552 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:11.996 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.552 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:11.998 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.557 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.000 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.557 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.002 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.557 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.002 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.562 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.004 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.564 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.005 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.564 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.005 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.567 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.008 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.570 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.010 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Search Coupon
+18:15:05.570 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
 
-10:57:12.011 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Search Coupon
+18:15:05.574 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Search Coupon
 
-10:57:12.012 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:15:05.580 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Search Coupon
 
-10:57:12.017 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Search Coupon
+18:15:05.584 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Search Coupon
 
-10:57:12.018 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature FOOTER
+18:15:05.587 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature FOOTER
 
-10:57:12.021 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature FOOTER
+18:15:05.594 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature FOOTER
 
-10:57:12.026 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature FOOTER
+18:15:05.595 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature FOOTER
 
-10:57:12.027 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Login into the application
+18:15:05.599 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Login into the application
 
-10:57:12.033 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Login into the application
+18:15:05.609 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Login into the application
 
-10:57:12.035 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Update
+18:15:05.609 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Login into the application
 
-10:57:12.038 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Login into the application
+18:15:05.616 [pool-3-thread-3] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Update
 
-10:57:12.047 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Update
+18:15:05.623 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Update
 
-10:57:12.054 [pool-3-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Update
+18:15:05.623 [pool-3-thread-2] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Update
 
-10:57:12.064 [pool-3-thread-3] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome user not registered-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.636 [pool-3-thread-3] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome user not registered-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.064 [pool-3-thread-2] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome failed login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.636 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome successful login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.065 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome successful login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.637 [pool-3-thread-2] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome failed login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.068 [pool-3-thread-2] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome failed login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.639 [pool-3-thread-2] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome failed login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.068 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome successful login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.639 [pool-3-thread-3] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome user not registered-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.069 [pool-3-thread-3] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome user not registered-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.639 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome successful login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.086 [pool-3-thread-2] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome failed login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.655 [pool-3-thread-2] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome failed login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.086 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome successful login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.660 [pool-3-thread-3] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome user not registered-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.087 [pool-3-thread-3] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome user not registered-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.661 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome successful login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.088 [pool-3-thread-2] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome failed login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.662 [pool-3-thread-3] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome user not registered-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.088 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome successful login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.662 [pool-3-thread-1] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome successful login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.088 [pool-3-thread-3] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome user not registered-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
+18:15:05.662 [pool-3-thread-2] DEBUG n.t.c.r.BaseRequirementsService - Requirement found for test outcome failed login-[]: Optional[Requirement{name='Login into the application', type='feature' parent = 'Login', cardNumber='null'}]
 
-10:57:12.090 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f_screenshots.html
+18:15:05.665 [pool-3-thread-3] DEBUG serenity.reporting - Generating report in d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100_screenshots.html
 
-10:57:12.090 [pool-3-thread-3] DEBUG serenity.reporting - Generating report in d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100_screenshots.html
+18:15:05.665 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f_screenshots.html
 
-10:57:12.090 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75_screenshots.html
+18:15:05.665 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75_screenshots.html
 
-10:57:12.456 [pool-3-thread-3] DEBUG serenity.reporting - Generated report d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100_screenshots.html in 366 ms
+18:15:06.045 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f_screenshots.html in 380 ms
 
-10:57:12.456 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f_screenshots.html in 366 ms
+18:15:06.045 [pool-3-thread-3] DEBUG serenity.reporting - Generated report d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100_screenshots.html in 380 ms
 
-10:57:12.456 [pool-3-thread-2] DEBUG serenity.reporting - Generated report ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75_screenshots.html in 366 ms
+18:15:06.047 [pool-3-thread-2] DEBUG serenity.reporting - Generated report ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75_screenshots.html in 382 ms
 
-10:57:12.458 [pool-3-thread-2] INFO  serenity.reporting - 
----------------------------
-| TEST NAME:   &amp#27;[1mfailed login&amp#27;[0m
-| RESULT:      &amp#27;[92mPassing&amp#27;[0m
-| REQUIREMENT: Login into the application
-| REPORT:      &amp#27;[96mfile:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/target/site/reports/ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.html&amp#27;[0m
----------------------------
-
-10:57:12.458 [pool-3-thread-3] INFO  serenity.reporting - 
+18:15:06.047 [pool-3-thread-3] INFO  serenity.reporting - 
 ----------------------------------
 | TEST NAME:   &amp#27;[1muser not registered&amp#27;[0m
 | RESULT:      &amp#27;[92mPassing&amp#27;[0m
 | REQUIREMENT: Login into the application
-| REPORT:      &amp#27;[96mfile:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/target/site/reports/d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.html&amp#27;[0m
+| REPORT:      &amp#27;[96mfile:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/target/site/serenity/d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.html&amp#27;[0m
 ----------------------------------
 
-10:57:12.458 [pool-3-thread-1] INFO  serenity.reporting - 
+18:15:06.047 [pool-3-thread-1] INFO  serenity.reporting - 
 -------------------------------
 | TEST NAME:   &amp#27;[1msuccessful login&amp#27;[0m
 | RESULT:      &amp#27;[92mPassing&amp#27;[0m
 | REQUIREMENT: Login into the application
-| REPORT:      &amp#27;[96mfile:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/target/site/reports/187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.html&amp#27;[0m
+| REPORT:      &amp#27;[96mfile:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/target/site/serenity/187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.html&amp#27;[0m
 -------------------------------
 
-10:57:12.462 [pool-3-thread-3] DEBUG serenity.reporting - Generating report in d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.html
+18:15:06.049 [pool-3-thread-2] INFO  serenity.reporting - 
+---------------------------
+| TEST NAME:   &amp#27;[1mfailed login&amp#27;[0m
+| RESULT:      &amp#27;[92mPassing&amp#27;[0m
+| REQUIREMENT: Login into the application
+| REPORT:      &amp#27;[96mfile:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/target/site/serenity/ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.html&amp#27;[0m
+---------------------------
 
-10:57:12.462 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.html
+18:15:06.058 [pool-3-thread-2] DEBUG serenity.reporting - Generating report in ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.html
 
-10:57:12.462 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.html
+18:15:06.475 [pool-3-thread-2] DEBUG serenity.reporting - Generated report ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.html in 417 ms
 
-10:57:12.795 [pool-3-thread-2] DEBUG serenity.reporting - Generated report ab71c13ef555b3593dbf8f9c2b5addc5f41d41145c422119aed1dceb64576d75.html in 332 ms
+18:15:06.475 [pool-3-thread-2] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:failed login done
 
-10:57:12.795 [pool-3-thread-2] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:failed login done
+18:15:06.774 [pool-3-thread-1] DEBUG serenity.reporting - Generating report in 187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.html
 
-10:57:12.843 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.html in 381 ms
+18:15:06.774 [pool-3-thread-3] DEBUG serenity.reporting - Generating report in d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.html
 
-10:57:12.844 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:successful login done
+18:15:07.004 [pool-3-thread-1] DEBUG serenity.reporting - Generated report 187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.html in 230 ms
 
-10:57:12.864 [pool-3-thread-3] DEBUG serenity.reporting - Generated report d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.html in 402 ms
+18:15:07.004 [pool-3-thread-1] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:successful login done
 
-10:57:12.864 [pool-3-thread-3] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:user not registered done
+18:15:07.026 [pool-3-thread-3] DEBUG serenity.reporting - Generated report d8b9535ca69ca8caf88dc5246d5cfbfae814efb91b5216ec34ba3e1360419100.html in 252 ms
 
-10:57:12.864 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
+18:15:07.026 [pool-3-thread-3] DEBUG n.t.core.reports.ReportService - Processing test outcome Login into the application:user not registered done
 
-10:57:12.865 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 1533 ms
+18:15:07.026 [main] DEBUG n.t.core.reports.ReportService - Shutting down executor service
 
-10:57:13.009 [main] INFO  i.c.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
+18:15:07.026 [main] DEBUG n.t.core.reports.ReportService - Reports generated in: 2083 ms
 
-10:57:13.010 [main] DEBUG n.s.core.photography.Darkroom - Closing darkroom
+18:15:07.160 [main] INFO  i.c.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
+
+18:15:07.161 [main] DEBUG n.s.core.photography.Darkroom - Closing darkroom
 
 
 @login @loginSuccess
 Scenario Outline: successful login        &amp#27;[90m# src/test/resources/features/login/login.feature:16&amp#27;[0m
-10:55:07.249 [pool-2-thread-1] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
-10:55:07.357 [pool-2-thread-1] INFO   - ----------------
+18:13:30.189 [pool-2-thread-1] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
+18:13:30.279 [pool-2-thread-1] INFO   - ----------------
 - TEST STARTED -
 ----------------
 
 successful login(login-into-the-application;successful-login)
 ----------------
-10:55:07.438 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature category coupons
-10:55:07.452 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
-10:55:07.457 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
-10:55:07.462 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
-10:55:07.467 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
-10:55:07.471 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
-10:55:07.478 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Search Coupon
-10:55:07.491 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature FOOTER
-10:55:07.505 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Login into the application
-10:55:07.517 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Update
+18:13:30.362 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature category coupons
+18:13:30.387 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:13:30.396 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:13:30.404 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:13:30.411 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:13:30.419 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Coupons
+18:13:30.430 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Search Coupon
+18:13:30.458 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature FOOTER
+18:13:30.487 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Login into the application
+18:13:30.505 [pool-2-thread-1] DEBUG n.t.c.r.m.cucumber.CucumberParser - Added feature Update
 &amp#27;[92m|-- 1: successful login ({number=72209308})&amp#27;[0m
 &amp#27;[92m|---- Given User enters the coupon website&amp#27;[0m
 &amp#27;[92m|------ User opens the home page&amp#27;[0m
-10:55:07.942 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - !#title
+18:13:30.972 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - !#title
 &amp#27;[92m|-------- User opens the home.page page&amp#27;[0m
-10:55:07.957 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - {0} opens the #pageName page
-10:55:07.990 [pool-2-thread-1] INFO  n.s.c.w.d.ChromeDriverProvider - Using automatically driver download
-10:55:08.257 [pool-2-thread-1] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=93 in cache (valid until 11:48:58 08/09/2021 COT)
-10:55:08.258 [pool-2-thread-1] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome93=93.0.4577.15 in cache (valid until 09:48:07 09/09/2021 COT)
-10:55:08.259 [pool-2-thread-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 93.0.4577.15 (resolved driver for Chrome 93)
-10:55:08.265 [pool-2-thread-1] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 93.0.4577.15 found in cache
-10:55:08.266 [pool-2-thread-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Usuario\.cache\selenium\chromedriver\win32\93.0.4577.15\chromedriver.exe
-10:55:09.103 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
-10:55:09.105 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-download-notifica..., --disable-infobars, --disable-gpu], excludeSwitches: [--enable-automation], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /my/downloads/, password_manager_enabled: false, profile.default_content_setting_values.geolocation: 1, profile.default_content_setting_values.notifications: 1, profile.default_content_settings.popups: 0}, useAutomationExtension: false}, loggingPrefs: org.openqa.selenium.logging...}
-10:55:14.597 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Opening darkroom
-10:55:14.598 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line starting up
-10:55:14.987 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\19e2794d9775e38b09e235fed3a6b814035705e7d389fc8ec9f597f42ce12518.png
-10:55:14.988 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7495270308987207633
-10:55:14.988 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\19e2794d9775e38b09e235fed3a6b814035705e7d389fc8ec9f597f42ce12518.png
-10:55:14.990 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} opens the #pageName page
-10:55:14.998 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
+18:13:30.983 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - {0} opens the #pageName page
+18:13:31.010 [pool-2-thread-1] INFO  n.s.c.w.d.ChromeDriverProvider - Using automatically driver download
+18:13:31.316 [pool-2-thread-1] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=93 in cache (valid until 19:10:10 09/09/2021 COT)
+18:13:31.318 [pool-2-thread-1] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome93=93.0.4577.63 in cache (valid until 11:42:22 10/09/2021 COT)
+18:13:31.318 [pool-2-thread-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 93.0.4577.63 (resolved driver for Chrome 93)
+18:13:31.329 [pool-2-thread-1] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 93.0.4577.63 found in cache
+18:13:31.330 [pool-2-thread-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Usuario\.cache\selenium\chromedriver\win32\93.0.4577.63\chromedriver.exe
+18:13:32.196 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+18:13:32.198 [pool-2-thread-1] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --disable-download-notifica..., --disable-infobars, --disable-gpu], excludeSwitches: [--enable-automation], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: /my/downloads/, password_manager_enabled: false, profile.default_content_setting_values.geolocation: 1, profile.default_content_setting_values.notifications: 1, profile.default_content_settings.popups: 0}, useAutomationExtension: false}, loggingPrefs: org.openqa.selenium.logging...}
+18:13:50.578 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Opening darkroom
+18:13:50.579 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line starting up
+18:13:50.956 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\116da77c5272ca0c02866b1cef12a5539253f475c3a7e64d404790197dbc8b5d.png
+18:13:50.956 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9005444254146440831
+18:13:50.956 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\116da77c5272ca0c02866b1cef12a5539253f475c3a7e64d404790197dbc8b5d.png
+18:13:50.959 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} opens the #pageName page
+18:13:50.968 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mUser&amp#27;[0m&amp#27;[32m enters the coupon website&amp#27;[0m    &amp#27;[90m# steps.LoginSD.user_enters_the_coupon_website(net.serenitybdd.screenplay.Actor)&amp#27;[0m
-10:55:25.443 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\1737397d82c02ac8ba947e270809f9981644762f315f523aee79a2f4bf0579f5.png
-10:55:25.443 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17136226283554897632
-10:55:25.443 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\1737397d82c02ac8ba947e270809f9981644762f315f523aee79a2f4bf0579f5.png
+18:14:01.197 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\833c56719915d7d6b5a9d0f62386324d6afc2d3ecb3a6247b950c9d4d24c35b3.png
+18:14:01.197 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1058491467458776137
+18:14:01.197 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\833c56719915d7d6b5a9d0f62386324d6afc2d3ecb3a6247b950c9d4d24c35b3.png
 &amp#27;[92m|---- When sends number document 72209308&amp#27;[0m
 &amp#27;[92m|------ Login&amp#27;[0m
-10:55:25.488 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_number_document - !#title
-10:55:25.494 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
-10:55:26.005 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\1737397d82c02ac8ba947e270809f9981644762f315f523aee79a2f4bf0579f5.png
+18:14:01.241 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_number_document - !#title
+18:14:01.246 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
+18:14:01.602 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\833c56719915d7d6b5a9d0f62386324d6afc2d3ecb3a6247b950c9d4d24c35b3.png
 &amp#27;[92m|-------- User enters '72209308' into Input de numero de documento&amp#27;[0m
-10:55:26.005 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_number_document - {0} enters #theTextAsAString into #target
-10:55:26.006 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
-10:55:26.692 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\1860514a9e69c31c6b3724a4b746ca62f4615405e578c58b93f1e116be47cfe1.png
-10:55:26.693 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
-10:55:26.693 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7587575793465104694
-10:55:26.693 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\1860514a9e69c31c6b3724a4b746ca62f4615405e578c58b93f1e116be47cfe1.png
-10:55:26.694 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Boton ingresar
-10:55:27.257 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\d1c29103728cf01a335fd670a4d6346cf90b43e4d632139f92f1a5a9580828e7.png
+18:14:01.603 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_number_document - {0} enters #theTextAsAString into #target
+18:14:01.604 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
+18:14:02.086 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\421194cc7718e96829f8f63ec099a3c74592e6398df52e157877aabd105bfc70.png
+18:14:02.087 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+18:14:02.087 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4049323142087712489
+18:14:02.087 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\421194cc7718e96829f8f63ec099a3c74592e6398df52e157877aabd105bfc70.png
+18:14:02.089 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Boton ingresar
+18:14:02.390 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\421194cc7718e96829f8f63ec099a3c74592e6398df52e157877aabd105bfc70.png
 &amp#27;[92m|-------- User clicks on Boton ingresar&amp#27;[0m
-10:55:27.258 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17064508869758768561
-10:55:27.258 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\d1c29103728cf01a335fd670a4d6346cf90b43e4d632139f92f1a5a9580828e7.png
-10:55:27.258 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_number_document - {0} clicks on #target
-10:55:27.259 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Boton ingresar
-10:55:27.923 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\6435e20da5ed62a5d28f9e3594bc3acc13e41b963d33289db01ff7048b648707.png
-10:55:27.924 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:55:27.924 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-15249037095565420209
-10:55:27.924 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\6435e20da5ed62a5d28f9e3594bc3acc13e41b963d33289db01ff7048b648707.png
-10:55:27.925 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for NOMBRE DEL CLIENTE
-10:55:29.612 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\84cea541ea485e9c7446a174c9ab8522b709ff7bb700cdc24a16cfa114887228.png
-10:55:29.613 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
-10:55:29.613 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-13862280458540077858
-10:55:29.613 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\84cea541ea485e9c7446a174c9ab8522b709ff7bb700cdc24a16cfa114887228.png
+18:14:02.391 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_number_document - {0} clicks on #target
+18:14:02.391 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Boton ingresar
+18:14:02.720 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\2600d53a6c6e5a8be0b52df1e05a9594759fec53f513306a8c91b01a45e1eee1.png
+18:14:02.720 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:14:02.720 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8042541800297983201
+18:14:02.720 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\2600d53a6c6e5a8be0b52df1e05a9594759fec53f513306a8c91b01a45e1eee1.png
+18:14:02.723 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for NOMBRE DEL CLIENTE
+18:14:05.163 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\0d2c74c1b26313ae16477b94bc97a119b8d04e9357eae94aed07ca386ab2f5cc.png
+18:14:05.164 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
+18:14:05.164 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8653630725404427950
+18:14:05.164 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\0d2c74c1b26313ae16477b94bc97a119b8d04e9357eae94aed07ca386ab2f5cc.png
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msends number document &amp#27;[0m&amp#27;[32m&amp#27;[1m72209308&amp#27;[0m     &amp#27;[90m# steps.LoginSD.sends_number_document(java.lang.String)&amp#27;[0m
 &amp#27;[92m|---- Then should be able to view her coupons&amp#27;[0m
-10:55:29.622 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for NOMBRE DEL CLIENTE
+18:14:05.174 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for NOMBRE DEL CLIENTE
 ****MENSAJE DE BIENVENIDA*****:¡Hola Jose!
-10:55:30.066 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\3a19d29c71ee516f1dff52044d8bfc7378edafbb796e970283d5602660c771ed.png
+18:14:05.544 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\9e8ae13c11c26c90fd358db7a852e449fb306bf193f7658c5825c13ef1bd55aa.png
 &amp#27;[92m|------ Then MENSAJE DE BIENVENIDA should be Predicates.equalTo(&iexcl;Hola Jose!)&amp#27;[0m
-10:55:30.067 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-15333751387542698474
-10:55:30.067 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\3a19d29c71ee516f1dff52044d8bfc7378edafbb796e970283d5602660c771ed.png
-10:55:30.068 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for NOMBRE DEL CLIENTE
-10:55:30.469 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\d009c3365989559dbc9a2742945cf967dccc45b3795d62079ed256ce98eb555f.png
-10:55:30.470 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2269690801030356075
-10:55:30.470 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\d009c3365989559dbc9a2742945cf967dccc45b3795d62079ed256ce98eb555f.png
-10:55:35.684 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\8a0d7ba63ecf082c066115935c6e92fcab72aa5f790c380ae2385efc4edc8ec6.png
+18:14:05.545 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8426866487811397565
+18:14:05.545 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\9e8ae13c11c26c90fd358db7a852e449fb306bf193f7658c5825c13ef1bd55aa.png
+18:14:05.545 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for NOMBRE DEL CLIENTE
+18:14:10.850 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\2c334d24ef2a1e00f99ac28a8f5c7a7ea0e21653cc21c3f58978d3b8648c49b0.png
+18:14:10.850 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-12653864181043596122
 &amp#27;[92m|------ cerrar sesion&amp#27;[0m
-10:55:35.685 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-11616867636599389690
-10:55:35.685 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\8a0d7ba63ecf082c066115935c6e92fcab72aa5f790c380ae2385efc4edc8ec6.png
-10:55:35.685 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.should_be_able_to_view_her_coupons - !#title
-10:55:35.689 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Cerrar sesion
-10:55:36.030 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\c5a65371ea97e1040eb108c1a420d8b6dcf138a421d5812c886c13ac5bc11197.png
+18:14:10.850 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\2c334d24ef2a1e00f99ac28a8f5c7a7ea0e21653cc21c3f58978d3b8648c49b0.png
+18:14:10.851 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.should_be_able_to_view_her_coupons - !#title
+18:14:10.854 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Cerrar sesion
+18:14:11.271 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\b64dfcb2bd62a8fdc5b70ff3748ee28fd895eefa29789c58e1fa63d542f5be91.png
+18:14:11.271 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-17823015360253719883
+18:14:11.271 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\b64dfcb2bd62a8fdc5b70ff3748ee28fd895eefa29789c58e1fa63d542f5be91.png
 &amp#27;[92m|-------- User clicks on Cerrar sesion&amp#27;[0m
-10:55:36.030 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3709663146893308406
-10:55:36.030 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\c5a65371ea97e1040eb108c1a420d8b6dcf138a421d5812c886c13ac5bc11197.png
-10:55:36.030 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.should_be_able_to_view_her_coupons - {0} clicks on #target
-10:55:36.030 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Cerrar sesion
-10:55:36.392 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\9e2f03dad285fe88b82dadc6b72845f6e024aa13f93e6ea8c5963b57e5ca7d17.png
-10:55:36.393 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:55:36.393 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2561476094779485074
-10:55:36.393 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\9e2f03dad285fe88b82dadc6b72845f6e024aa13f93e6ea8c5963b57e5ca7d17.png
-10:55:36.396 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
+18:14:11.273 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.should_be_able_to_view_her_coupons - {0} clicks on #target
+18:14:11.274 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Cerrar sesion
+18:14:11.708 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\ec628481af4ddead5ed37177c9503fe3698bfedb3d8154527dbf0fdf27cb6470.png
+18:14:11.709 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:14:11.709 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2771854466370409900
+18:14:11.713 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\ec628481af4ddead5ed37177c9503fe3698bfedb3d8154527dbf0fdf27cb6470.png
+18:14:11.718 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mshould be able to view her coupons&amp#27;[0m &amp#27;[90m# steps.LoginSD.should_be_able_to_view_her_coupons()&amp#27;[0m
-10:55:36.499 [pool-2-thread-1] INFO   - &amp#27;[92m---------------
+18:14:11.842 [pool-2-thread-1] INFO   - &amp#27;[92m---------------
 - TEST PASSED -
 ---------------
 
 successful login
 ---------------&amp#27;[0m
-10:55:36.743 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-14909615778655781890
-10:55:36.743 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\c8910fb8130b83d3baf03e97784abc3e7d6c10ace1c97bbe5c7954f3aed8459c.png
-10:55:40.936 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-14075135232905603028
-10:55:40.937 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\1ff05398ca0f317f45b1331f2a3d6e8fa258560251c13f1c2a6cde5ef6b0dfde.png
-10:55:52.163 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-915157538440849687
-10:55:52.163 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\01e37db300d0a790c849478d797b93b859b8f5374bf74cfec32683f3b06f0a19.png
-10:56:04.044 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-601544810344463759
-10:56:04.044 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\0ae9e8dda9ce6710a231ba90b6bde5c44f6459600584e9778000b51e3a8b5240.png
-10:56:17.487 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-12052060466459877670
-10:56:17.487 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to src\target\site\reports\879622f925fe2e81030fcea4b18b83377c99403c3884656604904e7570a25bc4.png
-10:57:13.010 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line shutting down
+18:14:12.167 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9135980583816194145
+18:14:12.167 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a83b02a299e5c20c2fb8dcc56fbe69cb70e9bcfb95fe1b7317ab9afa45fdb3d3.png
+18:14:13.019 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-11019134715505431541
+18:14:13.019 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\91bcc2430d059e53b1cf7a133dfeeef607cdecbe0718cdcf1c760c9fcb7bfe8e.png
+18:14:23.288 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-10273480880225510568
+18:14:23.288 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
+18:14:24.277 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9958216649778610455
+18:14:24.277 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\76ea8ab3c23e106cec9f2bf0a1d51fc92256f29ec95e4af805ecda1e8161f97b.png
+18:14:34.678 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-13929138107897985882
+18:14:34.678 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\71fd6604a6147cb37f36de4bd15691e6d97826d7e3754306f673306586568960.png
+18:14:35.134 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-11714028085773346471
+18:14:35.134 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\02c5f5b25f888f3404b3b2fa34249f7fe2306b463ac41d52a2f8c4975fa14e52.png
+18:14:36.236 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-12105764442390252786
+18:14:36.236 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\1ff05398ca0f317f45b1331f2a3d6e8fa258560251c13f1c2a6cde5ef6b0dfde.png
+18:14:47.436 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-12530365623412379105
+18:14:47.436 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\2b2bb5b6da1b326ee3430385da8dba2b023464e3b06151cb38b50879f25ad9b5.png
+18:14:48.245 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5423526974017617091
+18:14:48.245 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\7acc6d7df2724272125c70db2639c0233c4d357e907448f26db2fdf6ad2b66b9.png
+18:14:49.235 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4455342411828676351
+18:14:49.235 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\04dd76a6cdbbc0adb788d323910fa5fa59e6c26b8483755fcd5931a1ccf7e73e.png
+18:14:49.680 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4007750956803606912
+18:14:49.680 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\4b631f1437d64b0a4b866b57470534d359a2daa39d5e45ac0602bb9aca821016.png
+18:14:55.315 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9354921820136441161
+18:14:55.315 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\b139bd8ac8a7324e4aefc0eb250f3b6dbad63138c16aef0cc62f4144ab98e7ff.png
+18:15:04.842 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4449301497412536481
+18:15:04.842 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Saving screenshot to target\site\serenity\f7a664ad44252f95a3477f777ddacd17b9e01111957156cf889f2040c7300d48.png
+18:15:07.161 [Darkroom Processing Line] DEBUG n.s.c.p.DarkroomProcessingLine - Darkroom processing line shutting down
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203}) on port 17540
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 2179
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1631116509.391][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1631116509.391][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-set. 08, 2021 10:55:09 A. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+[1631229212.556][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1631229212.556][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+set. 09, 2021 6:13:33 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="failed login" classname="Login into the application" time="26.524">
+  <testcase name="failed login" classname="Login into the application" time="23.335">
     <system-out><![CDATA[
 @login @loginFailed
 Scenario Outline: failed login             &amp#27;[90m# src/test/resources/features/login/login.feature:25&amp#27;[0m
-10:55:36.505 [pool-2-thread-1] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
-10:55:36.507 [pool-2-thread-1] INFO   - ----------------
+18:14:11.853 [pool-2-thread-1] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
+18:14:11.856 [pool-2-thread-1] INFO   - ----------------
 - TEST STARTED -
 ----------------
 
 failed login(login-into-the-application;failed-login)
 ----------------
-10:55:36.743 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\c8910fb8130b83d3baf03e97784abc3e7d6c10ace1c97bbe5c7954f3aed8459c.png
+18:14:12.166 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\a83b02a299e5c20c2fb8dcc56fbe69cb70e9bcfb95fe1b7317ab9afa45fdb3d3.png
 &amp#27;[92m|-- 1: failed login ({number=000000})&amp#27;[0m
 &amp#27;[92m|---- Given User enters the coupon website&amp#27;[0m
 &amp#27;[92m|------ User opens the home page&amp#27;[0m
-10:55:36.761 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - !#title
+18:14:12.176 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - !#title
 &amp#27;[92m|-------- User opens the home.page page&amp#27;[0m
-10:55:36.768 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - {0} opens the #pageName page
-10:55:40.936 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\1ff05398ca0f317f45b1331f2a3d6e8fa258560251c13f1c2a6cde5ef6b0dfde.png
-10:55:40.936 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} opens the #pageName page
-10:55:40.940 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
+18:14:12.181 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - {0} opens the #pageName page
+18:14:13.019 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\91bcc2430d059e53b1cf7a133dfeeef607cdecbe0718cdcf1c760c9fcb7bfe8e.png
+18:14:13.019 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} opens the #pageName page
+18:14:13.023 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mUser&amp#27;[0m&amp#27;[32m enters the coupon website&amp#27;[0m     &amp#27;[90m# steps.LoginSD.user_enters_the_coupon_website(net.serenitybdd.screenplay.Actor)&amp#27;[0m
-10:55:51.209 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
+18:14:23.287 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
 &amp#27;[92m|---- When sends invalid document 000000&amp#27;[0m
 &amp#27;[92m|------ login invalid&amp#27;[0m
-10:55:51.216 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_invalid_document - !#title
-10:55:51.217 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
-10:55:51.618 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
+18:14:23.296 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_invalid_document - !#title
+18:14:23.297 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
+18:14:23.681 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
 &amp#27;[92m|-------- User enters '000000' into Input de numero de documento&amp#27;[0m
-10:55:51.619 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_invalid_document - {0} enters #theTextAsAString into #target
-10:55:51.620 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
-10:55:52.163 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\01e37db300d0a790c849478d797b93b859b8f5374bf74cfec32683f3b06f0a19.png
-10:55:52.163 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
-10:55:52.166 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
+18:14:23.682 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_invalid_document - {0} enters #theTextAsAString into #target
+18:14:23.682 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
+18:14:24.277 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\76ea8ab3c23e106cec9f2bf0a1d51fc92256f29ec95e4af805ecda1e8161f97b.png
+18:14:24.277 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+18:14:24.280 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msends invalid document &amp#27;[0m&amp#27;[32m&amp#27;[1m000000&amp#27;[0m       &amp#27;[90m# steps.LoginSD.sends_invalid_document(java.lang.String)&amp#27;[0m
-10:56:02.556 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\71fd6604a6147cb37f36de4bd15691e6d97826d7e3754306f673306586568960.png
+18:14:34.677 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\71fd6604a6147cb37f36de4bd15691e6d97826d7e3754306f673306586568960.png
 &amp#27;[92m|---- Then should be able to see error message&amp#27;[0m
-10:56:02.559 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Número de documento inválido
+18:14:34.684 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Número de documento inválido
 ****MENSAJE DE ERROR*****:Número de documento inválido
-10:56:02.982 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\02c5f5b25f888f3404b3b2fa34249f7fe2306b463ac41d52a2f8c4975fa14e52.png
+18:14:35.133 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\02c5f5b25f888f3404b3b2fa34249f7fe2306b463ac41d52a2f8c4975fa14e52.png
 &amp#27;[92m|------ Then MENSAJE DE ERROR should be Predicates.equalTo(N&uacute;mero de documento inv&aacute;lido)&amp#27;[0m
-10:56:02.983 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Número de documento inválido
+18:14:35.134 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Número de documento inválido
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mshould be able to see error message&amp#27;[0m &amp#27;[90m# steps.LoginSD.should_be_able_to_see_error_message()&amp#27;[0m
-10:56:03.026 [pool-2-thread-1] INFO   - &amp#27;[92m---------------
+18:14:35.181 [pool-2-thread-1] INFO   - &amp#27;[92m---------------
 - TEST PASSED -
 ---------------
 
@@ -785,71 +790,71 @@ failed login
 ---------------&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="user not registered" classname="Login into the application" time="68.205">
+  <testcase name="user not registered" classname="Login into the application" time="29.665">
     <system-out><![CDATA[
 @login @userNotRegistered
 Scenario Outline: user not registered               &amp#27;[90m# src/test/resources/features/login/login.feature:36&amp#27;[0m
-10:56:03.030 [pool-2-thread-1] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
-10:56:03.031 [pool-2-thread-1] INFO   - ----------------
+18:14:35.185 [pool-2-thread-1] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/Usuario/Desktop/AUTOMATIZACIONES/automation-cuponero-v2/src/test/resources/features/login/login.feature
+18:14:35.187 [pool-2-thread-1] INFO   - ----------------
 - TEST STARTED -
 ----------------
 
 user not registered(login-into-the-application;user-not-registered)
 ----------------
-10:56:03.411 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\71fd6604a6147cb37f36de4bd15691e6d97826d7e3754306f673306586568960.png
+18:14:35.590 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\71fd6604a6147cb37f36de4bd15691e6d97826d7e3754306f673306586568960.png
 &amp#27;[92m|-- 1: user not registered ({number=00447711})&amp#27;[0m
 &amp#27;[92m|---- Given User enters the coupon website&amp#27;[0m
 &amp#27;[92m|------ User opens the home page&amp#27;[0m
-10:56:03.420 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - !#title
+18:14:35.601 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - !#title
 &amp#27;[92m|-------- User opens the home.page page&amp#27;[0m
-10:56:03.425 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - {0} opens the #pageName page
-10:56:04.044 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\0ae9e8dda9ce6710a231ba90b6bde5c44f6459600584e9778000b51e3a8b5240.png
-10:56:04.044 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} opens the #pageName page
-10:56:04.049 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
+18:14:35.607 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.user_enters_the_coupon_website - {0} opens the #pageName page
+18:14:36.235 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\1ff05398ca0f317f45b1331f2a3d6e8fa258560251c13f1c2a6cde5ef6b0dfde.png
+18:14:36.235 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} opens the #pageName page
+18:14:36.239 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32m&amp#27;[0m&amp#27;[32m&amp#27;[1mUser&amp#27;[0m&amp#27;[32m enters the coupon website&amp#27;[0m              &amp#27;[90m# steps.LoginSD.user_enters_the_coupon_website(net.serenitybdd.screenplay.Actor)&amp#27;[0m
-10:56:14.331 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
+18:14:46.503 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
 &amp#27;[92m|---- When sends  document 00447711&amp#27;[0m
 &amp#27;[92m|------ user no registred&amp#27;[0m
-10:56:14.345 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_document - !#title
-10:56:14.346 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
-10:56:14.767 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
+18:14:46.511 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_document - !#title
+18:14:46.512 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
+18:14:46.885 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\e701afa4b5490f207803e5332c0990082c79d96eab53ccd6a2e3c042b27a763e.png
 &amp#27;[92m|-------- User enters '00447711' into Input de numero de documento&amp#27;[0m
-10:56:14.768 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_document - {0} enters #theTextAsAString into #target
-10:56:14.769 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
-10:56:15.346 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\2b2bb5b6da1b326ee3430385da8dba2b023464e3b06151cb38b50879f25ad9b5.png
-10:56:15.347 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
-10:56:15.348 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Boton ingresar
-10:56:15.733 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\2b2bb5b6da1b326ee3430385da8dba2b023464e3b06151cb38b50879f25ad9b5.png
+18:14:46.886 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_document - {0} enters #theTextAsAString into #target
+18:14:46.886 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Input de numero de documento
+18:14:47.436 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\2b2bb5b6da1b326ee3430385da8dba2b023464e3b06151cb38b50879f25ad9b5.png
+18:14:47.436 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} enters #theTextAsAString into #target
+18:14:47.438 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Boton ingresar
+18:14:47.828 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\2b2bb5b6da1b326ee3430385da8dba2b023464e3b06151cb38b50879f25ad9b5.png
 &amp#27;[92m|-------- User clicks on Boton ingresar&amp#27;[0m
-10:56:15.733 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_document - {0} clicks on #target
-10:56:15.733 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Boton ingresar
-10:56:16.209 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\057da4e177a20849f279465317f77d4aba2e2c4b60a85387f0b64dcea914cca3.png
-10:56:16.209 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:56:16.210 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for MODAL DE REGISTRO A CUPONERO
-10:56:17.486 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\879622f925fe2e81030fcea4b18b83377c99403c3884656604904e7570a25bc4.png
+18:14:47.828 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_document - {0} clicks on #target
+18:14:47.829 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Boton ingresar
+18:14:48.245 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\7acc6d7df2724272125c70db2639c0233c4d357e907448f26db2fdf6ad2b66b9.png
+18:14:48.245 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:14:48.247 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for MODAL DE REGISTRO A CUPONERO
+18:14:49.234 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\04dd76a6cdbbc0adb788d323910fa5fa59e6c26b8483755fcd5931a1ccf7e73e.png
 &amp#27;[92m|-------- User clicks on Link de registro a cuponero&amp#27;[0m
-10:56:17.487 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_document - {0} clicks on #target
-10:56:17.487 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Link de registro a cuponero
-10:56:17.923 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\4b631f1437d64b0a4b866b57470534d359a2daa39d5e45ac0602bb9aca821016.png
-10:56:17.924 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
-10:56:17.926 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
+18:14:49.235 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.sends_document - {0} clicks on #target
+18:14:49.235 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for Link de registro a cuponero
+18:14:49.679 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\4b631f1437d64b0a4b866b57470534d359a2daa39d5e45ac0602bb9aca821016.png
+18:14:49.679 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} clicks on #target
+18:14:49.682 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: !#title
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32msends  document &amp#27;[0m&amp#27;[32m&amp#27;[1m00447711&amp#27;[0m                     &amp#27;[90m# steps.LoginSD.sends_document(java.lang.String)&amp#27;[0m
 &amp#27;[92m|---- Then should be able to see the registration modal&amp#27;[0m
-10:56:17.931 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for MODAL DE REGISTRO A CUPONERO
+18:14:49.688 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for MODAL DE REGISTRO A CUPONERO
 ******DESCRIPCION DE MODAL DE REGISTRO************:Para ver tus cupones, debes ser Socio del Monedero del Ahorro. Ingresa a Registro de afiliación para afiliarte.
-10:56:18.248 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\4b631f1437d64b0a4b866b57470534d359a2daa39d5e45ac0602bb9aca821016.png
+18:14:49.991 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\4b631f1437d64b0a4b866b57470534d359a2daa39d5e45ac0602bb9aca821016.png
 &amp#27;[92m|------ Then DESCRIPCION MODAL DE REGISTRO***** should be Predicates.equalTo(Para ver tus cupones, debes ser Socio del Monedero del Ahorro. Ingresa a Registro de afiliaci&oacute;n para afiliarte.)&amp#27;[0m
-10:56:18.249 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for MODAL DE REGISTRO A CUPONERO
-10:56:23.564 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\b139bd8ac8a7324e4aefc0eb250f3b6dbad63138c16aef0cc62f4144ab98e7ff.png
+18:14:49.991 [pool-2-thread-1] DEBUG n.s.s.targets.IFrameSwitcher - default content already selected for MODAL DE REGISTRO A CUPONERO
+18:14:55.315 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\b139bd8ac8a7324e4aefc0eb250f3b6dbad63138c16aef0cc62f4144ab98e7ff.png
 &amp#27;[92m|------ User switches to new window&amp#27;[0m
-10:56:23.564 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.should_be_able_to_see_the_registration_modal - {0} switches to new window
-10:56:23.576 [pool-2-thread-1] DEBUG n.s.s.actions.SwitchToNewWindow - open windows: 2
-10:56:23.618 [pool-2-thread-1] DEBUG n.s.s.actions.SwitchToNewWindow - current window: Mifarma | Cuponero del ahorro, at: https://cupomania-qa05.cindibyinkafarma.com/login
-10:57:10.772 [pool-2-thread-1] DEBUG n.s.s.actions.SwitchToNewWindow - new window: Ahorrando en Mifarma, at: https://mifarmapromos.com.pe/afiliate
-10:57:11.226 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for src\target\site\reports\f7a664ad44252f95a3477f777ddacd17b9e01111957156cf889f2040c7300d48.png
-10:57:11.226 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} switches to new window
+18:14:55.315 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STARTING STEP: LoginSD.should_be_able_to_see_the_registration_modal - {0} switches to new window
+18:14:55.325 [pool-2-thread-1] DEBUG n.s.s.actions.SwitchToNewWindow - open windows: 2
+18:14:55.368 [pool-2-thread-1] DEBUG n.s.s.actions.SwitchToNewWindow - current window: Mifarma | Cuponero del ahorro, at: https://cupomania-qa05.cindibyinkafarma.com/login
+18:15:04.405 [pool-2-thread-1] DEBUG n.s.s.actions.SwitchToNewWindow - new window: Ahorrando en Mifarma, at: https://mifarmapromos.com.pe/afiliate
+18:15:04.841 [pool-2-thread-1] DEBUG n.s.core.photography.Darkroom - Send negative for processing for target\site\serenity\f7a664ad44252f95a3477f777ddacd17b9e01111957156cf889f2040c7300d48.png
+18:15:04.841 [pool-2-thread-1] DEBUG n.t.core.steps.StepInterceptor - STEP DONE: {0} switches to new window
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mshould be able to see the registration modal&amp#27;[0m &amp#27;[90m# steps.LoginSD.should_be_able_to_see_the_registration_modal()&amp#27;[0m
-10:57:11.230 [pool-2-thread-1] INFO   - &amp#27;[92m---------------
+18:15:04.847 [pool-2-thread-1] INFO   - &amp#27;[92m---------------
 - TEST PASSED -
 ---------------
 

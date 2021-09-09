@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.20/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.20/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.20/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.20/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.20/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">"My Special Project"</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="7e5f12c3f6dc9488fb91b0c3ce6806c911faf8f0dd126cacc1022bba52cc8d1e.html">Login Into The Application</a></span>
+                > <span class="truncate-60"><a
+                    href="187298ed932aa665ffb2485ff61c6540ca57808b33fdcdde8e1f508e15f27d8f.html">successful login </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-09-2021 18:13</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Login Into The Application </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html">Login
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="f596fffae7b7615da5304de1f4508bc13427b870e6090a534b39812ecd9c61b8.html">Login Success
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">successful login
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">When sends number document &lt;number&gt;<br>Then should be able to view her coupons</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="116da77c5272ca0c02866b1cef12a5539253f475c3a7e64d404790197dbc8b5d.png" title=" 1: successful login ({number=72209308})" width="1370"/>
+                <img src="116da77c5272ca0c02866b1cef12a5539253f475c3a7e64d404790197dbc8b5d.png" title=" Given User enters the coupon website" width="1370"/>
+                <img src="116da77c5272ca0c02866b1cef12a5539253f475c3a7e64d404790197dbc8b5d.png" title=" User opens the home page" width="1370"/>
+                <img src="116da77c5272ca0c02866b1cef12a5539253f475c3a7e64d404790197dbc8b5d.png" title=" User opens the home.page page" width="1370"/>
+                <img src="116da77c5272ca0c02866b1cef12a5539253f475c3a7e64d404790197dbc8b5d.png" title=" User opens the home page (completed)" width="1370"/>
+                <img src="833c56719915d7d6b5a9d0f62386324d6afc2d3ecb3a6247b950c9d4d24c35b3.png" title=" Given User enters the coupon website (completed)" width="1370"/>
+                <img src="833c56719915d7d6b5a9d0f62386324d6afc2d3ecb3a6247b950c9d4d24c35b3.png" title=" When sends number document 72209308" width="1370"/>
+                <img src="833c56719915d7d6b5a9d0f62386324d6afc2d3ecb3a6247b950c9d4d24c35b3.png" title=" login" width="1370"/>
+                <img src="833c56719915d7d6b5a9d0f62386324d6afc2d3ecb3a6247b950c9d4d24c35b3.png" title=" User enters '72209308' into Input de numero de documento" width="1370"/>
+                <img src="421194cc7718e96829f8f63ec099a3c74592e6398df52e157877aabd105bfc70.png" title=" User enters '72209308' into Input de numero de documento (completed)" width="1370"/>
+                <img src="421194cc7718e96829f8f63ec099a3c74592e6398df52e157877aabd105bfc70.png" title=" User clicks on Boton ingresar" width="1370"/>
+                <img src="2600d53a6c6e5a8be0b52df1e05a9594759fec53f513306a8c91b01a45e1eee1.png" title=" User clicks on Boton ingresar (completed)" width="1370"/>
+                <img src="0d2c74c1b26313ae16477b94bc97a119b8d04e9357eae94aed07ca386ab2f5cc.png" title=" login (completed)" width="1370"/>
+                <img src="0d2c74c1b26313ae16477b94bc97a119b8d04e9357eae94aed07ca386ab2f5cc.png" title=" When sends number document 72209308 (completed)" width="1370"/>
+                <img src="0d2c74c1b26313ae16477b94bc97a119b8d04e9357eae94aed07ca386ab2f5cc.png" title=" Then should be able to view her coupons" width="1370"/>
+                <img src="9e8ae13c11c26c90fd358db7a852e449fb306bf193f7658c5825c13ef1bd55aa.png" title=" Then MENSAJE DE BIENVENIDA should be Predicates.equalTo(&amp;iexcl;Hola Jose!)" width="1370"/>
+                <img src="9e8ae13c11c26c90fd358db7a852e449fb306bf193f7658c5825c13ef1bd55aa.png" title=" Then MENSAJE DE BIENVENIDA should be Predicates.equalTo(&amp;iexcl;Hola Jose!) (completed)" width="1370"/>
+                <img src="2c334d24ef2a1e00f99ac28a8f5c7a7ea0e21653cc21c3f58978d3b8648c49b0.png" title=" cerrar sesion" width="1370"/>
+                <img src="b64dfcb2bd62a8fdc5b70ff3748ee28fd895eefa29789c58e1fa63d542f5be91.png" title=" User clicks on Cerrar sesion" width="1370"/>
+                <img src="ec628481af4ddead5ed37177c9503fe3698bfedb3d8154527dbf0fdf27cb6470.png" title=" User clicks on Cerrar sesion (completed)" width="1370"/>
+                <img src="ec628481af4ddead5ed37177c9503fe3698bfedb3d8154527dbf0fdf27cb6470.png" title=" cerrar sesion (completed)" width="1370"/>
+                <img src="ec628481af4ddead5ed37177c9503fe3698bfedb3d8154527dbf0fdf27cb6470.png" title=" Then should be able to view her coupons (completed)" width="1370"/>
+                <img src="ec628481af4ddead5ed37177c9503fe3698bfedb3d8154527dbf0fdf27cb6470.png" title=" 1: successful login ({number=72209308}) (completed): <span class='success-color'>SUCCESS</span>" width="1370"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.4.34</span>
+</div>
+</body>
+</html>
