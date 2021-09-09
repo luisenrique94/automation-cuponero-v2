@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Login into the application","failed login","FAILURE","2021-09-08T10:34:56.7913907-05:00[America/Lima]","0.0","19.7"
-"Login into the application","user not registered","FAILURE","2021-09-08T10:35:16.5591609-05:00[America/Lima]","0.0","19.9"
