@@ -12,4 +12,7 @@ notifications:
 
 #install: true
       #-mvn install
-script: ./mvnw clean install
+before_install:
+  - mvn clean install
+script:
+  - mvn clean verify
