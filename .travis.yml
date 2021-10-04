@@ -7,7 +7,5 @@ notifications:
   email:
     recipients:
       - luisenriquechavezporroa@gmail.com
-install:
-  - mvn install
 script:
   - mvn  clean verify
