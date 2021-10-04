@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Login into the application
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 79.776 s <<< FAILURE! - in Login into the application
-Login into the application.successful login  Time elapsed: 36.649 s  <<< FAILURE!
-java.lang.AssertionError: predicate failed
-
-Login into the application.failed login  Time elapsed: 23.379 s  <<< FAILURE!
-java.lang.AssertionError: 
-
-Expected: an element that is visible
-     but: no matching element found by id: txtDocumentNumber
-
-Login into the application.user not registered  Time elapsed: 19.522 s  <<< FAILURE!
-java.lang.AssertionError: 
-
-Expected: an element that is visible
-     but: no matching element found by id: txtDocumentNumber
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 130.444 s - in Login into the application
