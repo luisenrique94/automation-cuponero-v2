@@ -7,7 +7,7 @@ notifications:
   email:
     recipients:
       - luisenriquechavezporroa@gmail.com
-install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+install: true
 script:
+  - mvn install
   - mvn  clean verify
