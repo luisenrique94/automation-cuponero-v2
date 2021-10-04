@@ -1,6 +1,6 @@
 language: java
 jdk:
-  -oraclejdk8
+   - openjdk8
 #jdk: openjdk14 #problems with sonar-maven-plugin
 branches:
   only:
