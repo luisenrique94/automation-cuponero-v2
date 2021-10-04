@@ -12,4 +12,5 @@ notifications:
 
 install: true
       #-mvn install
-script: ./mvn clean install
+script:
+  - mvn clean install
