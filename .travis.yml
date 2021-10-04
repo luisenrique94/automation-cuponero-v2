@@ -8,6 +8,6 @@ notifications:
     recipients:
       - luisenriquechavezporroa@gmail.com
 install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn install
 script:
-  - mvn verify
+  - mvn  clean verify
