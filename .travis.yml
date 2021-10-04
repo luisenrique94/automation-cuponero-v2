@@ -13,4 +13,4 @@ notifications:
 install: true
       #-mvn install
 script:
-  - mvn clean install
+  - mvn test
