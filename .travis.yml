@@ -10,7 +10,6 @@ notifications:
     recipients:
       - luisenriquechavezporroa@gmail.com
 
-install: true
+#install: true
       #-mvn install
-script:
-  - mvn clean verify
+script: ./mvnw clean install
